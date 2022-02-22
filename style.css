@@ -4,6 +4,10 @@
   list-style: none;
 }
 
+.primary {
+  color: #186A3B;
+}
+
 .wrap {
   background-color: #ddd;
   width: 100%;
