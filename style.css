@@ -29,6 +29,28 @@
 
 }
 
+.introBlock h2 {
+  font-size: 20px;
+}
+
+.introBlock h2,
+.introBlock p,
+.introBlock .location,
+.introBlock .contectMe {
+  padding: 10px 0px;
+}
+
+.introBlock .contectMe a {
+  text-decoration: none;
+}
+
+.introBlock .contectMe li +  li {
+  padding: 0 10px;
+}
+
+
+
+
 .contectMe li {
   display: inline-block;
 }
