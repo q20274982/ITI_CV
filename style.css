@@ -34,6 +34,11 @@
   padding-bottom: 20px;
 }
 
+.introBlock img {
+  width: 80%;
+  border-radius: 50%;
+}
+
 .introBlock h2 {
   font-size: 20px;
 }
