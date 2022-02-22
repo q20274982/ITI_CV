@@ -29,7 +29,7 @@
 }
 
 .introBlock {
-
+  padding-bottom: 20px;
 }
 
 .introBlock h2 {
@@ -51,6 +51,35 @@
   padding: 0 10px;
 }
 
+.workExperienceBlock {
+  padding-bottom: 20px;
+}
+
+.workExperienceBlock h3 {
+  font-size: 22px;
+}
+
+.workExperienceItem h4 span::before {
+  content: "‧";
+}
+
+.experienceList ul {
+  padding-left: 30px;
+}
+.experienceList li {
+  list-style: disc;
+}
+
+.workExperienceItem .seniority {
+  color: #aaa;
+}
+
+.workExperienceBlock h3,
+.workExperienceItem h4,
+.workExperienceItem .experienceList,
+.workExperienceItem .seniority {
+  padding: 10px 0px;
+}
 
 
 
