@@ -81,7 +81,30 @@
   padding: 10px 0px;
 }
 
+.row {
+  display: flex;
+}
 
+.skillsBlock,
+.languageBlock {
+  width: 50%;
+}
+
+.underLine {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.skillsBlock ul,
+.languageBlock ul {
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.skillsBlock li,
+.languageBlock li {
+  list-style: disc;
+}
 
 .contectMe li {
   display: inline-block;
